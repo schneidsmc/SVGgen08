@@ -5,6 +5,8 @@ const Triangle = require('./lib/triangle.js')
 const Square = require('./lib/square.js')
 const Shape = require('./lib/shape.js')
 
+
+
 class CreateSVG {
     constructor() {
         this.textElement = '';
@@ -58,9 +60,6 @@ async function init() {
     try {
         const answers = await inquirer.prompt(questions);
 
-        const svg = new CreateSVG();
-        svg.setTextElement(answers.text, answers.textColor);
-
         let shape;
         switch (answers.shape) {
             case 'Circle':
@@ -75,12 +74,14 @@ async function init() {
         }
 
         shape.setColor(answers.shapeColor);
+
+        const svg = new CreateSVG();
+        svg.setTextElement(answers.text, answers.textColor);
         svg.setShapeElement(shape);
 
-        const svgData = svg.render();
-
+        
         const fileName = "./examples/logo.svg";
-        writeToFile(fileName, svgData);
+        writeToFile(fileName, svg.render());
     } catch (error) {
         console.error('An error occurred: ', error);
     }
