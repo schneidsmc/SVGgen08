@@ -6,11 +6,13 @@
 
   ![badge](https://img.shields.io/badge/license-MIT-brightblue)<br />
 
-  <img src="https://img.shields.io/github/repo-size/schneidsmc/ReadMeGenerator07" />
-  <img src="https://img.shields.io/github/languages/top/schneidsmc/ReadMeGenerator07" />
-  <img src="https://img.shields.io/github/last-commit/schneidsmc/ReadMeGenerator07" />
 
+  <img src="https://img.shields.io/github/repo-size/schneidsmc/SVGgen08" />
+  <img src="https://img.shields.io/github/languages/top/schneidsmc/SVGgen08" />
+  <img src="https://img.shields.io/github/last-commit/schneidsmc/SVGgen08" />
 
+  <br />
+  
   <img src="https://img.shields.io/badge/Javascript-yellow" />
   <img src="https://img.shields.io/badge/jQuery-blue"  />
   <img src="https://img.shields.io/badge/-node.js-green" />
