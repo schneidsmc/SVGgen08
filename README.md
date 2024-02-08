@@ -4,9 +4,6 @@
 
 <div style= "text-align: center;">
 
-  ![badge](https://img.shields.io/badge/license-MIT-brightblue)<br />
-
-
   <img src="https://img.shields.io/github/repo-size/schneidsmc/SVGgen08" />
   <img src="https://img.shields.io/github/languages/top/schneidsmc/SVGgen08" />
   <img src="https://img.shields.io/github/last-commit/schneidsmc/SVGgen08" />
@@ -65,9 +62,11 @@ Provide instructions and examples for use.
 
 This project can be initiated by running `node index.js` in the correct integrated terminal. It can also be tested by running `npm run test` in the terminal.
 
-## License ✅ 
+## Demonstration
 
-MIT
+Click [here](https://youtu.be/i3oL063gg0U) to view the demonstration on youtube.com.
+
+<img src="./demonstration.gif" alt="gif demonstration" width="300" height="auto">
 
 ## Author 👋🏽
 
