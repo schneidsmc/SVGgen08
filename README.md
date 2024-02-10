@@ -64,7 +64,7 @@ This project can be initiated by running `node index.js` in the correct integrat
 
 ## Demonstration
 
-Click [here](https://youtu.be/i3oL063gg0U) to view the demonstration on youtube.com.
+Click [here](https://youtu.be/ItunynqFsJM) to view the demonstration on youtube.com.
 
 <img src="./demonstration.gif" alt="gif demonstration" width="300" height="auto">
 
